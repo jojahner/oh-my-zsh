@@ -1,4 +1,4 @@
-local rvm='%{$fg_bold[black]%}$(rvm-prompt v g)%{$reset_color%}'
+local rvm='%{$fg_bold[black]%}$(rvm-prompt v p g)%{$reset_color%}'
 
 PROMPT='%{$fg[green]%}%~%{$fg_bold[blue]%}$(git_prompt_info)%{$reset_color%} '
 RPROMPT="${rvm}"
